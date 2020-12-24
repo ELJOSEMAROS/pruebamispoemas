@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+h2 {
+    font-size: 33px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+h3 {
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+header,nav,section,article,footer {
+    display: block;
+}
+header{
+    background: rgb(190, 69, 238);
+    padding: 20px;
+    text-align: left;
+}
+nav {
+    background: rgb(231, 174, 141);
+    padding: 5px 15px;
+    text-align: left;
+}
+body{
+    background: rgb(231, 174, 141);
+    background-image: url('imag_inicio.jpeg');
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    background: rgb(209, 189, 218);
+    width: 1090px;
+    margin: 15px auto;
+/*    background-image: url('amor.jpg');
+    background-repeat:no-repeat;
+    background-position: right center;
+    margin-right: 30px;*/
+}
+section {
+    width: 600px;
+    margin: 20px;
+    float: left;
+}
+article{
+    background: rgb(202, 149, 207);
+    margin-bottom: 15px;
+    border: 1px solid #9999;
+}
+pre{
+    text-align: left;
+}
+
+article header{
+    background: rgb(180, 125, 177);
+}
+
+article footer{
+    text-align: left;
+    margin-top: 15px;
+}
+
+time {
+    color: dimgrey;
+}
+.kl a{
+    list-style: none;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: 1px solid black;
+}
+.footer{
+    padding: 12px;
+    background: rgb(128, 127, 125);
+    text-align: center;
+    clear: both;
+}
+.oal{
+    border: rgb(40, 48, 47);
+    text-align: center;
+    background: hsla(9, 95%, 61%, 0.5);
+}
+img{
+    width: 550px;
+    margin: 20px;
+}
+aside{
+    padding: 12px;
+    width: 240px;
+    float: left;
+}
+aside blockquote{
+    border: 1px solid rgb(224, 134, 82);
+    padding: 5px;
+    margin-left: 55px;
+    margin-top: 25px;
+    background: rgb(231, 174, 141);
+    display: block;
+}
+aside a:link,a:active{
+    color: darkviolet;
+    text-decoration: none;
+}
+aside a:visited, a:hover{
+    color:  darkviolet;
+    text-decoration: none;
+}
